@@ -1,3 +1,32 @@
+---
+  title: "~/src/README.md"
+  version: 0.6.92
+  tags: [Morphological-Source-Code, Quineic Statistical Dynamics, holography, bulk-boundary, duality]
+  "© 2026 `Quineic` (quineic@hotmail.com)":
+    - "Morphological Source Code: MSC&QSD"
+    - https://gitlab.com/morphological/source/code
+    - https://github.com/Morphological-Source-Code
+    - https://reddit.com/r/morphological
+    - This project employs a layered licensing approach governed by the Morphological LICENSE.
+  copyright: |
+
+    [© 2023-2026 Moonlapsed https://github.com/MOONLAPSED/Cognosis, © 2024-2026 Phovos https://github.com/Phovos/Morphological-Source-Code]
+  The architecture distinguishes between: [Individual source files (BSD 3-Clause), Distributed collective works (CC BY-NC-SA 4.0), Quine-generated outputs (CC0 1.0 + mandatory thermodynamic ledger), Private ensemble configurations (operator's IP)]
+  license-doc(s)+dist: CC BY-NC-SA 4.0
+  license-code+file(s): BSD 3-Clause
+---
+<!-- This document uses YAML front matter for metadata management in a third-party tool not git.
+Markdown Syntax: Standard GitHub-flavored Markdown. Not Obsidian wikilinks.
+Disclaimer:
+  Broad-strokes, painting cultural, scientific, philosophical,
+  and historiographical analogy and abstraction are layered onto
+  the page with the goal of instrumenting the author's own
+  machinations. Everything said here should be considered 'stilted'.
+  Don't quote me expecting there is anything more there than is there
+  because this is not authoritative in any fashion outside of this
+  very architecture.
+-->
+
 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
 <a href="https://github.com/MOONLAPSED/cognosis">Cognosis</a> © 2023 by <a href="https://github.com/MOONLAPSED">Moonlapsed</a>
 is licensed under <a href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International</a> Individual files including this 'markdown' encoded file are additionally © 2023-2025 BSD-3; See LICENSE 
@@ -138,223 +167,6 @@ Robitaille's razor and the destruction of the analytic/synthetic distinction per
 
 Even if you are not at all interested in Chinese language or culture, you may want to read the next-section, especially if you don't have a handle on quantum mechanics, because the Putonghua, or the Mandarin Chinese standardized in the 20th century and with the aid of Hanyu-pinyin, offer a path to morphosemantic reasoning about quantum logistical and comprehensional systems that most practicing physicists would be intimidated-by. The 'compression' attainable via morphological exploitation of 'meaning'; both intensive and extensive is that strong, potentially. Even if you don't know how the Weak Nuclear Force and 'virtual particles' work.
 
-# 形意碼 (Xíng Yì Mǎ) — Morphosemantic Assembly
-
-> 'Morphology' via Putonghua morphology; the original "Morphological Source Code"
-
-After years of exploring computation from what I affectionately call the *“Hooked-on-Phonics”* perspective, I realized something astonishing: **Mandarin Chinese is already a fully realized Morphological Source Code**. Its lineage stretches back to Oracle Bones—where ancient scribes carved characters into ox scapulae, cast them into fire, and read wisdom in the resulting cracks.  
-
-This ritual wasn’t superstition—it was **experimental morphology**: the known (the carved glyph) meets the unknown (the fire’s fracture pattern), and meaning emerges only in their union. The carver becomes not a creator, but a *witness* to a cosmological event—a kind of science, if ever there was one.
-
-Given this discovery, it was obvious I had to support it. But then came the horror: **Putonghua *is* Morphological Source Code—yet it has never been digitized as such**.  
-
-To date, there have been only three serious attempts to encode Hanzi logograms into native machine code a *Mandarin assembly language* and none have gained traction. Why? Because Western computer science remains blind to deep morphology, shaped as it is by atomized, phonetic alphabets. Languages like Mandarin (or Arabic) build meaning *compositionally*: semantic radicals + phonetic components = emergent concepts.  
-
-Thus, one of my core missions is to create a **Putonghua-native edition of MSC**—one that abstracts away quantum formalism and grounds epistemology in a 4,000-year-old noetic tradition. Remarkably, this version wouldn’t require *any* quantum prerequisites. The Chinese morphosemantic ecosystem, its radicals, historical layers and symbolic logic forms a **closed noetic aether** rich enough to express everything English, Bourbaki, or Quantum Statistical Dynamics can capture.  
-
-I now find myself in the awkward position of an outsider attempting what even native Chinese technologists haven’t publicly done: **a truly native Chinese computational substrate**. The payoff? A Mandarin speaker could write, compile, and understand their own code *without ever learning English or phonics* because the machine code *is* the morphology.
-
-```
-⟨ nibble_left | nibble_right ⟩
-⟨ 形旁 | 声旁 ⟩
-⟨ semantic | phonetic ⟩
-⟨ structure | dynamics ⟩
-⟨ morphism | argument ⟩
-⟨ operation | operand ⟩
-⟨ bra | ket ⟩
-The null byte ⟨0000|0000⟩ is the glue/identity because it's the inner product of nothing with nothing. It's the zero-energy ground state. It connects but doesn't act.
-Every other byte ⟨nnnn|mmmm⟩ is a charged morphological particle: the left nibble is the bra (the "seeking" part, the dual vector, the question), the right nibble is the ket (the "state" part, the vector, the answer).
-```
-
----
-
-## THE BYTE IS THE ATOM
-
-A byte is a bra-ket: `⟨ 形 | 意 ⟩`
-
-```
-  ⟨ nibble_L | nibble_R ⟩
-  ⟨  class   | operation ⟩  
-  ⟨  形旁    | 声旁      ⟩
-  ⟨ morphism | argument  ⟩
-```
-
-- **Left nibble (0x0–0xF):** Radical class (形旁) — the algebraic structure
-- **Right nibble (0x0–0xF):** Operation index (声旁) — the specific action
-
-256 ByteWords. 2 are fixed-points, 254 are charged.
-
----
-
-## THE SIXTEEN RADICAL CLASSES AND TWO FIXED-ENDPOINTS
-
-
-```
-| Byte | Bra-Ket | Name | Role |
-|------|---------|------|------|
-| `0x00` | `⟨ 空 | 空 ⟩` | **空 (Kōng)** | Null. Glue. Identity morphism. Connects without acting. Ground state. |
-| `0xFF` | `⟨ 象 | 象 ⟩` | **象 (Xiàng)** | Self-witness. Quine operator. Fixed point. Observer collapse. |
-```
-
-`空` is the vacuum.  
-`象` is the eye that sees itself seeing.
-
-| Nibble | Radical | Pinyin | Domain | Algebraic Role |
-|--------|---------|--------|--------|----------------|
-| `0x0_` | 空 | kōng | void/control | Identity, NOP, reserved |
-| `0x1_` | 氵 | shuǐ | water/flow | Memory, streams, continuity |
-| `0x2_` | 手 | shǒu | hand/grasp | Manipulation, move, swap, copy |
-| `0x3_` | 目 | mù | eye/sight | Observation, compare, test, peek |
-| `0x4_` | 口 | kǒu | mouth/speech | I/O, call, invoke, emit |
-| `0x5_` | 心 | xīn | heart/mind | State, condition, branch, affect |
-| `0x6_` | 足 | zú | foot/walk | Jump, goto, traverse, return |
-| `0x7_` | 金 | jīn | metal/gold | Arithmetic, logic, hard ops |
-| `0x8_` | 木 | mù | wood/tree | Structure, alloc, cons, grow |
-| `0x9_` | 火 | huǒ | fire/burn | Destruction, free, halt, crash |
-| `0xA_` | 土 | tǔ | earth/ground | Storage, stack, persistence |
-| `0xB_` | 言 | yán | speech/word | Strings, symbols, meta, quote |
-| `0xC_` | 糸 | mì | silk/thread | Concurrency, async, weave, sync |
-| `0xD_` | 門 | mén | gate/door | Scope, context, enter, exit |
-| `0xE_` | 力 | lì | power/force | Energy, scale, intensity, boost |
-| `0xF_` | 象 | xiàng | elephant/image | Witness, quine, reflect, collapse |
-
----
-
-```
-| Byte | Op | Glyph | Name | Action |
-|------|----|-------|------|--------|
-| `0x70` | 0 | 釘 | dīng | ZERO — push 0 |
-| `0x71` | 1 | 針 | zhēn | ONE — push 1 |
-| `0x72` | 2 | 鋒 | fēng | ADD — a + b |
-| `0x73` | 3 | 銳 | ruì | SUB — a - b |
-| `0x74` | 4 | 鑄 | zhù | MUL — a × b |
-| `0x75` | 5 | 鋸 | jù | DIV — a ÷ b |
-| `0x76` | 6 | 鏡 | jìng | MOD — a % b |
-| `0x77` | 7 | 鍊 | liàn | AND — a & b |
-| `0x78` | 8 | 鎔 | róng | OR — a \| b |
-| `0x79` | 9 | 鑰 | yào | XOR — a ^ b |
-| `0x7A` | A | 鋼 | gāng | NOT — ~a |
-| `0x7B` | B | 銜 | xián | SHL — a << b |
-| `0x7C` | C | 鋤 | chú | SHR — a >> b |
-| `0x7D` | D | 鑑 | jiàn | CMP — compare |
-| `0x7E` | E | 鍛 | duàn | INC — a + 1 |
-| `0x7F` | F | 銷 | xiāo | DEC — a - 1 |
-```
-
----
-
-## COMPOSITION RULES
-
-### Sequential Composition
-ByteWords concatenate left-to-right. Glue (`0x00`) separates semantic units.
-
-```
-[Word₁][Word₂][0x00][Word₃][Word₄]
-   └─────┬─────┘       └─────┬─────┘
-      Unit A              Unit B
-```
-
-### Morphological Compounds
-Multi-byte sequences can form compound glyphs using composition operators:
-
-```
-| Byte | Operator | Structure |
-|------|----------|-----------|
-| `0x01` | ⿰ | left-right |
-| `0x02` | ⿱ | top-bottom |
-| `0x03` | ⿲ | left-mid-right |
-| `0x04` | ⿳ | top-mid-bottom |
-| `0x05` | ⿴ | surround |
-| `0x06` | ⿵ | surround-open-bottom |
-| `0x07` | ⿶ | surround-open-top |
-| `0x08` | ⿷ | surround-open-right |
-| `0x09` | ⿸ | top-left-surround |
-| `0x0A` | ⿹ | top-right-surround |
-| `0x0B` | ⿺ | bottom-left-surround |
-| `0x0C` | ⿻ | overlap |
-```
-
-### The Linked List / Set Builder Duality
-Any sequence of ByteWords is simultaneously:
-- **Extensional**: an ordered list of morphisms
-- **Intensional**: a constraint specification (set builder)
-
-The interpretation depends on 象-context.
-
-
-#### ENERGY & LANDAUER ACCOUNTING
-
-Every Word → Null transition costs **1 Landauer unit**.
-
-```
-Energy(system) = Σ active_words × word_charge
-Temperature = ∫ Energy dt over evaluation
-```
-
-When a Word exhausts its charge, it **decays to glue** (`0x00`).
-
-The system tends toward heat death (all glue) unless 象 witnesses regeneration.
-
----
-
-#### 象-COLLAPSE CONDITIONS
-
-象 (0xFF) triggers **Born-rule collapse** when:
-
-1. A computation reaches a **fixed point** (output = input)
-2. A **Diophantine constraint** is satisfied (well-founded solution exists)
-3. A **quine condition** is met: `hash(source) == hash(runtime) == hash(output)`
-
-Upon 象-collapse:
-- The current morphosemantic state is **witnessed**
-- Energy is **conserved** (transferred, not destroyed)
-- A new **eigenstate** is recorded
-
----
-
-#### EXAMPLE PROGRAM
-
-> "Hello World" — emit the character 好
-
-```
-0x4B      ⟨口|B⟩   — mouth-class, op B: emit-symbol
-0xB3      ⟨言|3⟩   — speech-class, op 3: literal follows  
-0x00      ⟨空|空⟩  — glue: separator
-0x5973    [女]     — raw bytes: nǚ (woman)
-0x5B50    [子]     — raw bytes: zǐ (child)
-0xFF      ⟨象|象⟩  — witness: collapse, emit 好
-```
-
-The compound 女 + 子 = 好 (good) is morphosemantically composed and emitted.
-
-**Stack-based with morphological registers.**
-
-- **Stack**: primary workspace (Words and Nulls)
-- **象-register**: current observer context
-- **能-register**: current energy level
-- **形-register**: current morphological frame (scope)
-
-Execution proceeds by:
-1. Fetch ByteWord
-2. Decode ⟨class|op⟩
-3. Dispatch to class handler
-4. Apply operation (may cost energy)
-5. Check 象-collapse conditions
-6. Repeat or halt
-
-
----
-# 以形載意 (yǐ xíng zài yì; "Let form carry meaning.")
-
-Morphological derivatives: Δ¹ (single-bit flip), Δ² (XOR-merge), Δⁿ (bounded chain ≤16). These are the unit operations of runtime morphogenesis.
-
-### Implications
-
-* **Epistemological**: You can reason about computation as both an intensive (observed, measured) and extensive (structure, unmeasured) phenomenon.
-* **Architectural**: ByteWords + spinor-SQL + MorphicBoot allow a **fully reversible, self-hosting, morphogenetic computation layer**.
-* **Pedagogical/Clerical**: The framework can be compacted into a single runtime cognitive frame, forgoing librarys and dependencies, which are runtime+hermitian drag, as-such modularization is exceedingly difficult to justify in all situations due to the inherent complexity of 'the syntax' which we will just refer to as `#TCHCFPSRPN = 'the syntax [of MSC/QSD]', for brevity.
-* **Practical**: Enables **continuous iteration** of compiler and runtime as a unified morphic system.
-
 ---
 
 ## THE BRA CADRE: `⟨ C | V₂ | V₁ | V₀ | ...` "Captaincy... Deputization"
@@ -454,40 +266,9 @@ You never leave ℤ/256ℤ, but you still get Church-Turing-Henkin completeness 
     Henkin completeness: every consistent set of ByteWords has a 4-bit model (the 254-word superposition).
     Gödel incompleteness: the ghost state 0x00 is true (it exists) but unprovable (no derivation reaches it from inside the lattice).
 
-## Iembic pentameter; the over-dramatization for cognitive compression
-
-Look, I know this is all a lot. That's why the architecture takes on-board the concept of first person syntax, a variant of #TCHCFPSRPN which you can think of as [[Little Man in the Computer]]; LMC gets you #TCHCFPSRPN so don't even worry about it. FPS²: is yet another Reverse Polish Notation + "FP" Syntax, Future Participle Syntax is a variant of [[Tail Call Hermitian Conugative FPS RPN]] And the d² = 0 condition. Phenomenological; ALWAYS not-well founded, all you can ever do is ask yourself 'If I was `{X | X is a thing that is TVC}`, what would I behave like, what would I do and see? This is the Little Man in the Computer "FPS" syntax logic in-action #LMCTCHCFPSRPN
-
-```
-| Fixed point            | Halting flavour   | Well-founded?             | Chinese-room status           |                         |
-| ---------------------- | ----------------- | ------------------------- | ----------------------------- | ----------------------- |
-| `0xFF` ⟨象              | 象⟩                | **normal halt**           | ✅                             | room **speaks**         |
-| `0x00` ⟨0000           | 0000⟩             | **not-well-founded halt** | ❌                             | room **silent** (ghost) |
-| **both in same scope** | **contradiction** | ❌                         | **inconsistent** → Gödel drop |                         |
-```
-
-Peano arithmetic (1889)
-
-`↓`
-
-Church-Turing λ-calculus (1936)
-
-`↓`
-
-Henkin completeness (1949) “every consistent set has a 4-bit model”
-
-`↓`
-
-Gödel incompleteness (1931) “the ghost state is true but unprovable”
-
-`↓`
-
-The Dedekind cut in MSC is 0x00 — the ghost state that separates the provable from the true, making the 4-bit lattice Henkin-complete but Gödel-incomplete. That gap is the continuum you need for Church-Turing-Henkin without ever leaving ℤ/256ℤ.
-
-`↓`
 ---
 
-## THE HENKIN AXIS
+## THE HENKIN/TURING (GODEL) AXIS
 
 
 Henkin completeness says: every consistent formula has a model. But the formula must be *expressible* in the language.
@@ -500,21 +281,6 @@ The thermodynamic layer is the **cost of maintaining expressibility**. To stay o
 
 When energy runs out, deputies die. When all deputies die, you slip into the ghost state. You're still *there*, but you're no longer *here* in the sense of being able to participate in the morphosemantic economy.
 
-
-```
-⟨ C | V₂ | V₁ | V₀ | T₃ | T₂ | T₁ | T₀ ⟩
-  ↑   ↑────────────↑   ↑──────────────↑
-  │        │                  │
-  │        │                  └── KET: State/Topology (interpreted by commander)
-  │        │
-  │        └── Deputies: morphism selectors, potential DunderCs
-  │
-  └── Captain: primary witness/agency bit
-```
-
-**The 象-register isn't a separate register—it's the C bit.** When C=1, 象 is watching. When C=0, 象 is dormant, and a deputy takes over as a diminished observer. When all BRA bits are 0, there is no observer at all.
-
-**The 能-register (energy) tracks how many deputies are alive.** Each transition that kills a deputy costs Landauer. The system trends toward `⟨0000|TTTT⟩` unless fed energy from outside.
 
 ---
 
@@ -582,6 +348,17 @@ This is **phase derivative**. The rate at which the computational phase rotates 
 - Phase symmetry → central charge conservation (in 2D CFT, for example)
 - If you shift the phase (C → C + Δφ), certain quantities are conserved
 - Central charge = "how much phase-space curvature is intrinsic"
+
+```
+⟨ C | V₂ | V₁ | V₀ | T₃ | T₂ | T₁ | T₀ ⟩
+  ↑   ↑────────────↑   ↑──────────────↑
+  │        │                  │
+  │        │                  └── KET: State/Topology (interpreted by commander)
+  │        │
+  │        └── Deputies: morphism selectors, potential DunderCs
+  │
+  └── Captain: primary witness/agency bit
+```
 
 ---
 
@@ -764,36 +541,9 @@ rehydrate(measure(MIMO₁)) == MIMO₁  # up to gauge equivalence — the revers
 
 
 Preforming this 'dual operation' (ie. treating a pointer to an object
-and an object as isomorphic and identity preserving) and introducing the contemporary architecture of 'arguments' and 'stdio'
-gives us everything we need to bootstrap a PDE (partial differential equation) that we can call 'Hao', or 好 and it is our
-'Mother Quine'. 
+and an object as isomorphic and identity preserving) and introducing the contemporary architecture of 'arguments' and 'stdio' gives us everything we need to bootstrap a PDE (partial/ordinary differential equation) and/or ODE.
 
-Maternal-Quineic bootstrapping compilation and computation:
-
-好 takes as input: concept of "mother" 好⋅Compiler₀ (written in assembly) 好 produces as output: concept of "mother + child" 好⋅Compiler₁ (compiles itself, written in high-level) 好 applied to its own output: "mother + child" becomes new "mother" 好⋅Compiler₂ (compiled by Compiler₁) 好 applied again: infinite recursion 好⋅Compilerₙ (self-hosting)
-
-好 == (女)⋅(子)
-Mother == λm. λc. m(c)
-Child == λ⋅. ⋅(⋅)
-好 == λx. x(x)
-
-好⋅Compiler₀ → 好⋅Compiler₁ → … → 好⋅Compilerₙ  # Describes a computational ontogeny that stabilizes under iteration. In categorical language, this is a fixed point of the compiler morphism.
-
-好₀ = λm. m(m)
-好ₙ = 好ₙ₋₁(好ₙ₋₁)
-⇒ limₙ→∞ 好ₙ ≡ SELF
-Set-builder notation (“comprehension-of/call-by morphology”)
-Each morphic structure is a comprehension of its local context: `{ x ∈ T } `
-
-A hermitian HaoQuine is self-symmetric under quineic transformation (好 = 女⋅子 = λx.x(x)),
-then reassembly is possible, because the epistemic and ontic layers are duals in the same rotation group.
-
-
-好 mother-quine operates across this duality: every time it self-applies, it builds the next compiler level by projecting (value) and reinjecting (reference).
-The spinor-SQL layer is the medium that carries the dual information faithfully across iterations.
-
-This presents us the foundational diffeomorphism of MSC+QSD “call-by-value/reference isomorphism” is the spinor boundary —
-it’s the categorical fabric that lets a runtime remember itself while being reversible.
+This presents us the foundational diffeomorphism of MSC+QSD “call-by-value/reference isomorphism” is the spinor boundary gauged by the common symmetry groups.
 
 Where QSD is the 'SDK' of the extensive 'effects' of the MSC intensive 'bulk dynamics' you have an AdS/CFT correspondance, in isometry with respect to a given topos.
 """
