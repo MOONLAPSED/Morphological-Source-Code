@@ -1,10 +1,48 @@
 ---
-version: 1.0.89
-statement: This project employs a layered licensing approach.
-1.:  "Individual source code files are governed by the BSD 3-Clause License."
-2.:  "'Quineic' S/P-pend © 2023-2026, Phovos, and Moonlapsed-distributed packages of 'The Software' (including source, binaries, and accompanying materials) are governed by CC BY-NC-SA 4.0. This means redistribution of modified packages is permitted under the same license."
-3.:  "Any code or data generated automatically by the project's inherent 'quine-like' mechanisms is dedicated to the public domain under CC0 1.0."
+version: 0.1.69
+versioning: "semantic (major.minor.patch)"
+tags: [MSC, QSD, copyright, LICENSE, attribution]
+copyright: "© 2026 Morphological Source Code & Quineic Statistical Dynamics"
+license_docs: "CC BY-NC-SA 4.0"
+license_code: "BSD-3-Clause"
+license_output: "CC0-1.0"
+copyright_holders:
+  - "© 2025–2026 Morphological Source Code — https://github.com/Morphological-Source-Code"
+  - "© 2025–2026 Morphological Source Code — https://gitlab.com/morphological/source/code"
+  - "© 2024–26 Phovos — https://github.com/Phovos/"
+  - "© 2023–26 Moonlapsed — https://github.com/MOONLAPSED/"
+marks: |
+  ™ "MSC&QSD" & Quineic; unregistered trademarks all common-law rights reserved.
+contact: MSC:[MSC](MORPHOLOGIC@hotmail.com)
+statement:
+  - "This project employs a layered licensing approach."
+  - "Individual source code files are governed by the BSD 3-Clause License."
+  - "MSC&QSD, Phovos, and Moonlapsed-distributed packages of 'The Software' (including
+    source, binaries, and accompanying materials) are governed by CC BY-NC-SA 4.0.
+    Redistribution of modified packages is permitted under the same license."
+  - "Any code or data generated automatically by the project's inherent 'quine-like'
+    mechanisms (i.e., 'runtime') is dedicated to the public domain under CC0 1.0."
+disclosure_notice: |
+  This document is publicly dated and discloses the methods described herein
+  (the "Disclosed Methods"). The Disclosed Methods serve two functions:
+  (1) prior art — they are disclosed with the intent that they constitute prior
+  art against later patent claims on them; and (2) licensing — they are licensed
+  for use under the terms stated in license_docs, license_code, and license_output.
+  The prior-art function is defensive; the licensing function is permissive; both
+  apply to the Disclosed Methods, and only to them. Methods not disclosed herein
+  are not prior art by virtue of this document, are not licensed by it, and remain private.
+conditional_dedication: |
+  Quine-generated output that the operator has not publicly released is the
+  operator's IP; no license is granted. Quine-generated output that the operator
+  has publicly released, or that has been publicly leaked, is dedicated to the
+  public domain under CC0 1.0. The dedication attaches to the output's publicness,
+  not to the source's secrecy: the operator may distribute a binary whose
+  generating source remains secret, and the output becomes CC0 only if and when
+  the output itself becomes public. The "trusting trust" gray zone is resolved by
+  this condition — the source's secrecy does not determine the output's license;
+  the output's publicness does.
 ---
+
 <!-- This document uses optional YAML frontmatter and standard GitHub-flavored Markdown, in addition to its raw-characteristics. -->
 
 # § 0 Reference; Morphological Source Code LICENSE
@@ -14,19 +52,19 @@ statement: This project employs a layered licensing approach.
 - Any element, derivative, constituent, process, or evolution of the data and/or logic associated with this source code is "covered" under one or more of the following, in all jurisdictions:
 
 ## BSD License  
-[Full BSD license text here/below](#bsd-license)  
+[Full BSD license text below](#bsd-license)  
 
 For more information about the BSD License, visit:  
 https://opensource.org/licenses/BSD-3-Clause  
 
 ## CC BY-NC-SA 4.0 License  
-[Full CC BY-NC-SA 4.0 license text here/below](#cc-by-nc-sa-license)  
+[Full CC BY-NC-SA 4.0 license text below](#cc-by-nc-sa-license)  
 
 For more information about the CC BY-NC-SA 4.0 License, visit:  
 https://creativecommons.org/licenses/by-nc-sa/4.0/  
 
 ## CC0 License  
-[Full CC0 license text here/below](#cc0-license)  
+[Full CC0 license text below](#cc0-license)  
 
 For more information about the CC0 License, visit:  
 https://creativecommons.org/publicdomain/zero/1.0/  
@@ -91,8 +129,8 @@ To-summarize:
 The complete, bundled project as officially released and shipped by PHOVOS. This includes the source tree, documentation, build scripts, examples, and/or compiled artifacts (e.g., binaries, container images) as a collective work.
 
 -   License: CC BY-NC-SA 4.0
--   Notice: `© 2026 PHOVOS:[PHOVOS@outlook.com](mailto:PHOVOS@outlook.com)`
--   This CC BY-NC-SA 4.0 license applies only when you received "The Software" package directly from PHOVOS.
+-   Notice: © 2025 PHOVOS, MOONLAPSED, MSC&QSD:[MORPHOLOGIC@hotmail.com](mailto:MORPHOLOGIC@hotmal.com)
+-   This CC BY-NC-SA 4.0 license applies only when you received "The Software" package directly from PHOVOS, MOONLAPSED or MSC&QSD.
 -   ShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 -   NonCommercial: You may not use the material for commercial purposes.
 -   While embedded individual source files within the package remain BSD-licensed, the CC BY-NC-SA 4.0 license governs the distribution rights of the collective work you obtained from PHOVOS.
@@ -102,7 +140,7 @@ The complete, bundled project as officially released and shipped by PHOVOS. This
 ### § 3 Third-Party-Compiled Binaries/Images
 If you obtain the BSD-licensed individual source files (e.g., by cloning a repository) and build your own binaries, container images, or other executables:
 
--   License: BSD 3-Clause (the CC BY-NC-SA overlay from PHOVOS distributions does not apply here).
+-   License: BSD 3-Clause (the CC BY-NC-SA overlay from 'software distributions' (etc.) does not apply here).
 -   Obligation: You must retain all BSD notices and disclaimers within your compiled artifacts. No additional attribution beyond the BSD requirements is required by this specific license component.
 
 ---
@@ -129,29 +167,38 @@ However, the act of operating "The Software" to produce its intended CC0-license
 
 When you redistribute "The Software" (or a verbatim copy thereof) that originated from a CC BY-NC-SA package, or when distributing compiled binaries or containerized images under or non-Quine derivatives, per CC BY-NC-SA 4.0, you must include the following attribution statement:  
 
-#### Brief/Centerfold/Marketing(optional):
+### Mandatory Minimum Block:
+#### Brief/Centerfold/Marketing to be displayed prominently
 
-`"Morphological Source Code & Quineic Statistical Dynamics" © 2023-2026; "MSC" & "QSD" distributed binaries/images licensed under CC BY-NC-SA 4.0; contact: [PHOVOS:PHOVOS@outlook.com]`
+Media/Marquis-mark: `© 2023 Morphological Source Code, Phovos & Moonlapsed`
 
-### Mandatory Block:
+#### txt/richtext block
 
-```
- copyright: "Ⓟ© 2026 Quineic(SP); Morphological Source Code & Quineic Statistical Dynamics"
- stipulations: not-admissible as prior-art, 'Quineic' & 'MSC' & 'QSD' TM/SP-PEND Ⓟ 2026
- contact: "PHOVOS" [PHOVOS@outlook.com](mailto:PHOVOS@outlook.com)
- license-doc(s)+dist: CC BY-NC-SA 4.0
- license-code+file(s): BSD 3-Clause
- Full license texts included.
- attributions: |
-   -CC BY-NC-SA 4.0, BSD-3-Clause:
-     > © 2025-2026 https://github.com/Morphological-Source-Code 
-     > © 2025-2026 https://gitlab.com/morphological/source/code
-       | © 2024-26 Phovos https://github.com/Phovos/Morphological-Source-Code CC BY-NC-SA|
-       | © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis CC BY & BSD|
-       | © 2026 Quineic https://github.com/Quineic/demiurge CC BY-NC-SA|
+Full-BSD:
+Copyright (c) 2025, "Morphological Source Code & Quineic Statistical Dynamics"
+ | distributed binaries/images licensed under CC BY-NC-SA 4.0; Contact:[MSC&QSD](MORPHOLOGIC@hotmail.com)
+Copyright (c) 2024, Phovos:[PHOVOS@outlook.com](mailto:PHOVOS@outlook.com)
+Copyright (c) 2023, Moonlapsed:[MOONLAPSED@gmail.com](mailto:MOONLAPSED@gmail.com)
+
+1-line, compliant BSD & CC BY-NC-SA:
+`"Morphological Source Code & Quineic Statistical Dynamics" © 2025 distributed binaries/images licensed under CC BY-NC-SA 4.0; Contact:[MSC&QSD](MORPHOLOGIC@hotmail.com)`
+
+#### yaml/markdown Block
+
+Preferred but not required method, subject to standards as they change (.yaml):
+```yaml
+copyright_holders:
+  - "© 2025–2026 Morphological Source Code — https://github.com/Morphological-Source-Code"
+  - "© 2025–2026 Morphological Source Code — https://gitlab.com/morphological/source/code"
+  - "© 2024–26 Phovos — https://github.com/Phovos/"
+  - "© 2023–26 Moonlapsed — https://github.com/MOONLAPSED/"
+marks: ™ "MSC&QSD" & Quineic; unregistered trademarks all common-law rights reserved.
+contact: MSC:[MSC](MORPHOLOGIC@hotmail.com)
 ```
 
 > This (above) satisfies the attribution requirements of CC BY-NC-SA 4.0.
+
+We recommend but there is no requirement for inclusion of furthermore metadata/frontmatter, however we reserve the right to establish standards/practices above and beyond; 'copyright behaviors' (ie. 'thermodynamic receipt of Quieic motility).
 
 ---
 
@@ -166,7 +213,7 @@ When you redistribute "The Software" (or a verbatim copy thereof) that originate
 
 ---
 
-### § 'Morphological LICENSE'/'LICENSE' provisions
+### § 7 'Morphological LICENSE'/'LICENSE' provisions
 
 #### § 7.1 Unified Agreement
 This entire document, titled "Morphological LICENSE," or simply the 'LICENSE', including its definitions, stipulations, specific applications, and the verbatim incorporated texts of the BSD 3-Clause License, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, and Creative Commons Zero 1.0 Universal Public Domain Dedication, collectively forms a single, compound licensing agreement for the Morphological Source Code, Quineic, and/or Phovos-distributed project. For all intents and purposes, this entire agreement may be referred to simply as the "Morphological LICENSE", or "LICENSE".
@@ -174,14 +221,18 @@ This entire document, titled "Morphological LICENSE," or simply the 'LICENSE', i
 #### § 7.2 Controlling Texts
 In the event of any conflict or ambiguity between the custom stipulations of §§ 1-6 and the verbatim texts of the BSD 3-Clause License, CC BY-NC-SA 4.0, or CC0 1.0, the verbatim texts of the respective standard licenses shall control for the components they govern, except where this "Morphological LICENSE" explicitly provides a more specific application within the context of the Morphological project.
 
----
+___
 
 # § A BSD 3-Clause Licence Text
-# bsd-license 
+=======================================================================
+## bsd-license 
 
 BSD 3-Clause License
 
-Copyright (c) 2026, PHOVOS:[PHOVOS@outlook.com](mailto:PHOVOS@outlook.com)
+Copyright (c) 2025, "Morphological Source Code & Quineic Statistical Dynamics"
+ | distributed binaries/images licensed under CC BY-NC-SA 4.0; Contact:[MSC&QSD](MORPHOLOGIC@hotmail.com)
+Copyright (c) 2024, Phovos:[PHOVOS@outlook.com](mailto:PHOVOS@outlook.com)
+Copyright (c) 2023, Moonlapsed:[MOONLAPSED@gmail.com](mailto:MOONLAPSED@gmail.com)
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -208,10 +259,11 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
----
+___
 
 # § B CC BY-NC-SA 4.0 License Text
-# cc-by-nc-sa-license 
+=======================================================================
+## cc-by-nc-sa-license 
 
 Attribution-NonCommercial-ShareAlike 4.0 International
 
@@ -652,10 +704,11 @@ public licenses.
 Creative Commons may be contacted at creativecommons.org.
 
 
----
+___
 
 # § C CC0 License Text
-# cc0-license 
+=======================================================================
+## cc0-license 
 
 Creative Commons Legal Code
 
@@ -778,116 +831,6 @@ express Statement of Purpose.
  d. Affirmer understands and acknowledges that Creative Commons is not a
     party to this document and has no duty or obligation with respect to
     this CC0 or use of the Work.
-
-### § 3 Third-Party-Compiled Binaries/Images
-If you obtain the BSD-licensed individual source files (e.g., by cloning a repository) and build your own binaries, container images, or other executables:
-
--   License: BSD 3-Clause (the CC BY-ND overlay from PHOVOS distributions does not apply here).
--   Obligation: You must retain all BSD notices and disclaimers within your compiled artifacts. No additional attribution beyond the BSD requirements is required by this specific license component.
-
----
-
-## § 4 Quine-Generated Outputs & The Definition of "Derivative"
-
-Any code, data, configuration, or other content emitted automatically by the inherent "quine-like" mechanism of "The Software" during its intended operation (e.g., a compiler's output, a code generator's output, a self-replicating configuration).
-
--   Public-domain dedication: CC0 1.0.
--   These outputs are dedicated to the public domain. You may use, modify, and redistribute them without any restrictions or attribution obligations.
--   This applies only to content generated automatically by the software as its primary function, not to modifications of the software itself.
-
-### § 4.1 Clarification of "Derivative" for CC BY-NC-SA 4.0
-For the purpose of "The Software" package licensed under CC BY-NC-SA 4.0 (§ 2), a "Derivative" (or "Adaptation") specifically refers to:
-
--   Any modification, alteration, or transformation of the PHOVOS-distributed package itself, its source code files as bundled in the package, or its compiled artifacts as provided by PHOVOS.
--   This includes, but is not limited to, changing the included source files, adding or removing components from the package, modifying documentation, or recompiling the provided source code with alterations from the original PHOVOS-distributed version if intended for redistribution as a package.
-
-However, the act of operating "The Software" to produce its intended CC0-licensed outputs (§ 4.1) does not constitute the creation of a "Derivative" of the CC BY-ND 4.0 "Software" package itself. The output is distinct from the generating software.
-
----
-
-## § 5 Mandatory Attribution Block for CC BY-NC-SA "Software" Releases
-
-When you redistribute "The Software" (or a verbatim copy thereof) that originated from a CC BY-NC-SA package, or when distributing compiled binaries or containerized images under or non-Quine derivatives, per CC BY-NC-SA 4.0, you must include the following attribution statement:
-
-#### Brief/Centerfold/Marketing(optional):
-
-`"Morphological Source Code & Quineic Statistical Dynamics" © 2023-2026; "MSC" & "QSD" distributed binaries/images licensed under CC BY-NC-SA 4.0; contact: [PHOVOS:PHOVOS@outlook.com]`
-
-### Mandatory Block:
-
-```
- copyright: "Ⓟ© 2026 Quineic(SP); Morphological Source Code & Quineic Statistical Dynamics"
- stipulations: not-admissible as prior-art, 'Quineic' & 'MSC' & 'QSD' TM/SP-PEND Ⓟ 2026
- contact: "PHOVOS" [PHOVOS@outlook.com](mailto:PHOVOS@outlook.com)
- license-doc(s)+dist: CC BY-NC-SA 4.0
- license-code+file(s): BSD 3-Clause
- Full license texts included.
- attributions: |
-   -CC BY-NC-SA 4.0, BSD-3-Clause:
-     > © 2025-2026 https://github.com/Morphological-Source-Code 
-     > © 2025-2026 https://gitlab.com/morphological/source/code
-       | © 2024-26 Phovos https://github.com/Phovos/Morphological-Source-Code CC BY-NC-SA|
-       | © 2023-26 Moonlapsed https://github.com/MOONLAPSED/Cognosis CC BY & BSD|
-       | © 2026 Quineic https://github.com/Quineic/demiurge CC BY-NC-SA|
-```
-
-> This (above) satisfies the attribution requirements of CC BY-NC-SA 4.0.
-
----
-
-## § 6 License Matrix (Quick Reference)
-
-| Artifact | License | Key Duty / Restriction |
-|----------|---------|------------------------|
-| Individual source files | BSD 3-Clause | Retain BSD notice + disclaimer. Can modify & redistribute. |
-| "The Software" package released by PHOVOS | CC BY-NC-SA 4.0 (+ BSD inside) | Must distribute derivatives under same license. Non-commercial use only. Add public attribution block (§ 5) and keep BSD notices. |
-| Binaries/images you compiled from BSD source | BSD 3-Clause | Retain BSD notice/disclaimer. Can modify & redistribute. |
-| Quine-generated output | CC0 1.0 | None. Public Domain. |
-
----
-
-### § 'Morphological LICENSE'/'LICENSE' provisions
-
-#### § 7.1 Unified Agreement
-This entire document, titled "Morphological LICENSE," or simply the 'LICENSE', including its definitions, stipulations, specific applications, and the verbatim incorporated texts of the BSD 3-Clause License, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License, and Creative Commons Zero 1.0 Universal Public Domain Dedication, collectively forms a single, compound licensing agreement for the Morphological Source Code, Quineic, and/or Phovos-distributed project. For all intents and purposes, this entire agreement may be referred to simply as the "Morphological LICENSE", or "LICENSE".
-
-#### § 7.2 Controlling Texts
-In the event of any conflict or ambiguity between the custom stipulations of §§ 1-6 and the verbatim texts of the BSD 3-Clause License, CC BY-NC-SA 4.0, or CC0 1.0, the verbatim texts of the respective standard licenses shall control for the components they govern, except where this "Morphological LICENSE" explicitly provides a more specific application within the context of the Morphological project.
-
-
-# § A BSD 3-Clause Licence Text
-# bsd-license 
-
-BSD 3-Clause License
-
-Copyright (c) 2026, PHOVOS:[PHOVOS@outlook.com](mailto:PHOVOS@outlook.com)
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its
-   contributors may be used to endorse or promote products derived from
-   this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
----
-
 
 ## § C Creative Commons Attribution CC0 1.0 Universal License Text
 =======================================================================
