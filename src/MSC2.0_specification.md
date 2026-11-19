@@ -139,9 +139,9 @@ Canonical ensembles require you to trust the bath. You assume it's at temperatur
 
 Microcanonical requires **no trust**. The system is closed. The ‘fossils’ are complete. The residue contains everything.
 
-Thompson's "Trusting Trust" fails in canonical reasoning: the compiler is the bath, and you can't audit the bath.
+Thompson's "Trusting Trust" (K. Thompson) fails in canonical reasoning: the compiler is the bath, and you can't audit the bath.
 
-It succeeds in microcanonical reasoning: the compiler is part of the isolated system, and the SQL/fossil records every state transition. No hidden reservoir. The system architecture demands microcanonical treatment:
+It can succeed in microcanonical reasoning: the compiler is part of the isolated system, and the SQL/fossil records every state transition. No hidden reservoir. The system architecture demands microcanonical treatment:
 
 - Closed bulk (no external bath)
 - Deterministic dynamics (no thermal noise)
@@ -150,7 +150,50 @@ It succeeds in microcanonical reasoning: the compiler is part of the isolated sy
 
 Isolated. Self-describing. Thermodynamically sealed except for irreversible Landauer payments ('Demonic Debt'; debt owed prior to any observation).
 
-An advcanced-brief on the topology of the 'non-chiral semantics':
+## Parameterization of morphic degrees of freedom
+### Non-chiral static-typing ([runtime] symmetry not-broken)
+
+```py
+T = TypeVar('T')  # Type structure
+V = TypeVar('V')  # Value space
+R = TypeVar('R')  # Return type
+C = TypeVar('C')  # Control/computation space
+BYTE = TypeVar("BYTE", bound="ByteWord")
+
+# Covariant and contravariant type variables
+T_co = TypeVar('T_co', covariant=True)  # Type structure with covariance (Markovian)
+V_co = TypeVar('V_co', covariant=True)  # Value space with covariance (Markovian)
+C_co = TypeVar('C_co', covariant=True)  # Control space with covariance (Markovian)
+
+T_anti = TypeVar('T_anti', contravariant=True)  # Type structure with contravariance
+V_anti = TypeVar('V_anti', contravariant=True)  # Value space with contravariance
+C_anti = TypeVar('C_anti', contravariant=True)  # Computation space with contravariance
+
+class Morphology(enum.Enum):
+    """
+    Represents the floor morphic state of a ByteWord.
+    
+    C = 0: Floor morphic state (stable, low-energy)
+    C = 1: Dynamic or high-energy state
+    
+    The control bit (C) indicates whether other holoicons can point to this holoicon:
+    - DYNAMIC (1): Other holoicons CAN point to this holoicon
+    - MORPHIC (0): Other holoicons CANNOT point to this holoicon
+    
+    This ontology roughly maps to thermodynamic character; intensive & extensive. A
+    'quine' (self-instantiated runtime) is in a low-energy, intensive system, while a 
+    dynamic holoicon is a high-energy, extensive quine(s) which is inherently tied to 
+    its environment.
+    """
+    MORPHIC = 0       # Stable, low-energy state
+    DYNAMIC = 1       # High-energy, potentially transformative state
+    
+    # Fundamental computational orientation and symmetry; only applies to 'Morphic' (logic; 'non-chiral'; the 'direction' is a spontaneous symmetry breaking)
+    MARKOVIAN = -1    # Forward-evolving, irreversible
+    NON_MARKOVIAN = math.e  # Reversible, with memory
+```
+## On the topology of the 'non-chiral semantics' (symmetry breaking syntax; 'static sees dynamic')
+### Static/Dynamic typing
 
 ```txt
 ByteWord flavor: Mobius
@@ -167,8 +210,6 @@ ByteWord flavor: Mobius
         - Includes the bare-minimum required "ISA" for agentic-Motility; is extensible
         - Only the two least-significant Tbits are needed for all of the above;
             - The two most-significant Tbits are free-slots for custom "ISA" or other behavior, or just 'value'/magnitude etc.
-
------------------------
 
 TOPOLOGICAL SUBSTRATE (Layer/Derivative 0)
 • Base manifold: Discrete genus-1 torus (2×2 lattice)
@@ -192,13 +233,10 @@ Invariants:
   2. Unitary, involutory XOR operators on (w₁,w₂)  
   3. Algorithmic entropy  S(x) = log₂|compress(x)|  (no external Φ)  
   4. Merkle-root triple equality  hash(src) == merkle(runtime) == merkle(child)
-
------------
-
-Transducer Algebra:
-  Map/Filter = bit-mask transducers (O(ω))  
-  Compose = associative XOR chain  
-  Collect = SoA cache-line buffer
+  5. Transducer Algebra:
+    Map/Filter = bit-mask transducers (O(ω))  
+    Compose = associative XOR chain  
+    Collect = SoA cache-line buffer
 
 --------------------
 
@@ -310,7 +348,6 @@ Let's discuss the Non-linear scaling in 4-bit morphospace
 
     Ghost-o1 = ⟨0000|0001⟩ = zero-point hum — 1 bit of structure, 0 bits of agency
     Ghost-oF = ⟨0000|1111⟩ = morphosemantic singularity — 15 bits of structure, 0 bits of agency
-
 
     Agency = binary (0 or 1)
     Structure = 15-level ladder (1 → 15)
