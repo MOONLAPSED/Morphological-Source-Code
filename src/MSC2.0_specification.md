@@ -150,10 +150,9 @@ It succeeds in microcanonical reasoning: the compiler is part of the isolated sy
 
 Isolated. Self-describing. Thermodynamically sealed except for irreversible Landauer payments ('Demonic Debt'; debt owed prior to any observation).
 
-
-
 An advcanced-brief on the topology of the 'non-chiral semantics':
 
+```txt
 ByteWord flavor: Mobius
     ByteWord as 2D Morphism:
     • Each ByteWord is a genus-2 torus encoded by (w₁, w₂) ∈ ℤ₂×ℤ₂.
@@ -168,6 +167,7 @@ ByteWord flavor: Mobius
         - Includes the bare-minimum required "ISA" for agentic-Motility; is extensible
         - Only the two least-significant Tbits are needed for all of the above;
             - The two most-significant Tbits are free-slots for custom "ISA" or other behavior, or just 'value'/magnitude etc.
+
 -----------------------
 
 TOPOLOGICAL SUBSTRATE (Layer/Derivative 0)
@@ -175,6 +175,7 @@ TOPOLOGICAL SUBSTRATE (Layer/Derivative 0)
 • Winding coordinates: (w₁, w₂) ∈ ℤ₂ × ℤ₂  (4 states total)
 • Evolution: XOR cascade = parallel transport along connection ω
 • Holonomy: ∮ ω = winding number (topological invariant)
+
 -------------------------------
 
 Sparse-Unitary Semantics (local, atomic, 'microscopic'):
@@ -183,6 +184,7 @@ Sparse-Unitary Semantics (local, atomic, 'microscopic'):
   State evolution         :  |ψₜ⟩ → |ψₜ₊₁⟩ via single XOR gate  
   Entanglement            :  Shared winding masks across ByteWords  
   Decoherence             :  Mask reset → garbage collect ∅ states
+
 -------------------------
 
 Invariants:
@@ -190,28 +192,20 @@ Invariants:
   2. Unitary, involutory XOR operators on (w₁,w₂)  
   3. Algorithmic entropy  S(x) = log₂|compress(x)|  (no external Φ)  
   4. Merkle-root triple equality  hash(src) == merkle(runtime) == merkle(child)
+
 -----------
 
 Transducer Algebra:
   Map/Filter = bit-mask transducers (O(ω))  
   Compose = associative XOR chain  
   Collect = SoA cache-line buffer
+
 --------------------
-
-Advanced (cohomological, homomorphic) Type System:
-(In-addition, the set-theory of the aforementioned quantum and classical types, T, V & C)
--  T_co / T_anti  : torus winding direction  
--  V_co / V_anti  : value parity under XOR  
--  C_co / C_anti  : computation associativity
-> Utilizes multiple inheritance along the 'arrow of time' of C3 super() linearization for 'causal' structure.
--------------
-
-
-
 
 The 'Dynamics' are entirely computable, indeed, bitwise:
 
-```txt
+> Utilizes multiple inheritance along the 'arrow of time' of C3 super() linearization for 'causal' structure.
+
 Big-endian gauge topology: [C V V V | T T T T]:
 
 ⟨ C | V₂ | V₁ | V₀ | T₃ | T₂ | T₁ | T₀ ⟩
