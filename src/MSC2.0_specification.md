@@ -300,7 +300,7 @@ This means the 16 radical classes (TTTT) are **always present** but **variably i
 
 The **same TTTT** means different things depending on who's reading it. This is the phenomenological core: **meaning is observer-dependent**, and observers have a hierarchy, and the hierarchy is encoded in the byte itself.
 
-In any other literature you find, the above would be burried many abstractions layers deep as what they would call the [[Non Associativity of Floats]]. Captaincy is my hack for making the extremley complex dynamics of radix+codepoint+signBit+mantissa([[significand]])*exponent (see IEEE 754 Standard) morphosemantic and workable.
+In any other literature you find, the above would be burried many abstractions layers deep as what they would call the [[Non Associativity of Floats]]. Captaincy is the hack for making the extremely complex dynamics of radix+codepoint+signBit+mantissa([[significand]])*exponent (see IEEE 754 Standard) morphosemantic and workable.
 
 ```
 Bit 7: C     — The Captain. Commander. When present (1), he's in charge.
@@ -320,6 +320,7 @@ Bit 4: V₀   — Third Deputy. Takes command if C=0 AND V₂=0 AND V₁=0.
 | 0 | 0 | 0 | 0 | **NOBODY** |  The Ghost State  |
 
 Captaincy is like a mnemonic for epistemic [[Tail Call]] delegation; `< 000__V₀__ | ... >` pronounced 'dunder-Vzero', and its 'responsibilities' often include an [[Oracle]]-like character to them. Which makes sense when you think about their role as the last observable quanta of a runtime series, they are the fixed endpoint that is required for the wave function to be rooted. You can ask yourself, "what does my Captain `__enter__` and alternativly his lowest deputy DunderC `__exit__` have to do (each one is not implemented in python and as such does not have a full eneter/exit context manager, this is semantic tagging for your general understanding and categorization).
+
 ---
 
 ## THE GHOST STATE: `⟨ 0000 | TTTT ⟩`
